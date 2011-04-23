@@ -43,4 +43,11 @@ syntax enable
 
 :filetype plugin on
 
-map Q :q
+map QQ :q <Cr>
+map <silent> <C-t> <ESC> :tabedit .<Cr>
+map <silent> ] <ESC> :tabnext <Cr>
+map <silent> [ <ESC> :tabNext <Cr>
+
+"иногда встречаются файлы с расширением html, но контентом tt2, меням их тип
+"в ручную — в автоматическом режиме приносит больше вреда
+map <silent> TT <ESC> :set filetype=tt2 <Cr>
