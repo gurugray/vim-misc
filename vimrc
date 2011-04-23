@@ -3,20 +3,20 @@ set autoread
 
 set autoindent
 set smartindent
+set smarttab
 
 set wrap
 set tabstop=4
 set shiftwidth=4
 set ruler
 
-set showmatch 
+set showmatch
 set hlsearch
 set incsearch
 set ignorecase
 
 set lz
-
-set listchars=eol:↲,tab:→→,trail:·,nbsp:↔
+set listchars=tab:\ \ ,trail:~
 set list
 
 set wildmenu
