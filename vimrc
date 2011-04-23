@@ -27,6 +27,12 @@ set encoding=utf-8
 set termencoding=utf-8
 set fileencodings=utf-8,cp1251,cp866,koi8-r
 
+set nobackup
+set noswapfile
+
+set foldmethod=syntax
+set cursorline
+
 call pathogen#runtime_append_all_bundles()
 
 set background=dark
