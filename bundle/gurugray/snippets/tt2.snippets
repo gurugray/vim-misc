@@ -5,7 +5,7 @@ snippet p
 snippet pi
 	[% PROCESS '${1}' IF ${2:condition} %]${3}
 snippet b
-	[% BLOCK ${1:'b-'} %]
+	[% BLOCK '${1}' %]
 		${2}
 	[% END %]
 snippet i
