@@ -13,9 +13,6 @@
 [submodule "bundle/mustache"]
 	path = bundle/mustache
 	url = git://github.com/juvenn/mustache.vim.git
-[submodule "bundle/vim-tt2"]
-	path = bundle/vim-tt2
-	url = git://github.com/ggray/vim-tt2.git
 [submodule "bundle/pathogen"]
 	path = bundle/pathogen
 	url = git://github.com/tpope/vim-pathogen.git
