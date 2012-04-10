@@ -16,3 +16,6 @@
 [submodule "bundle/pathogen"]
 	path = bundle/pathogen
 	url = git://github.com/tpope/vim-pathogen.git
+[submodule "vim-javascript"]
+	path = vim-javascript
+	url = git://github.com/pangloss/vim-javascript
