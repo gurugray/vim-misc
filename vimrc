@@ -53,8 +53,10 @@ set synmaxcol=1000
 
 call pathogen#runtime_append_all_bundles()
 
-set background=dark
+set background=light
 colorscheme solarized
+
+let g:airline_theme='light'
 
 set t_Co=256
 syntax enable
