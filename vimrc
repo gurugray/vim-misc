@@ -99,3 +99,5 @@ map <silent> TT <ESC> :set filetype=tt2 <Cr>
 
 vmap > >gv
 vmap < <gv
+
+set backspace=indent,eol,start
